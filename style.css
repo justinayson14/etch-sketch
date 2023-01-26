@@ -47,9 +47,26 @@ footer .text {
     font-size: 15px;
 }
 
+.clear-button {
+    color: #EBF5EE;
+    background-color: #0D1B1E;
+    margin-top: 20px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+
+.clear-button:hover {
+    background-color: #244851;
+}
+
 .content {
     min-height: 800px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
