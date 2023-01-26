@@ -72,22 +72,19 @@ footer .text {
 }
 
 .box-container {
-    min-width: fit-content; 
-    min-height: fit-content;
+    min-width: 600px; 
+    min-height: 600px;
     border: 2px dotted #0D1B1E;
 }
 
 .box-in-container {
     border: .5px solid white;
-    width: 31.25px;
-    height: 31.25px;
-
 }
 
 .row-of-boxes {
     display: flex;
     gap: 0px;
     border: 0.5px solid #0D1B1E;
-    width: 500px;
-    height: 31.25px;
+    width: fit-content;
+    height: fit-content;
 }
