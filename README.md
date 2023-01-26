@@ -2,6 +2,7 @@
 
 Create a etch-a-sketch by manipulating DOM with JS
 
+1/25/23
 Used JS DOM concepts such as:
 - event listeners
 - query selectors
