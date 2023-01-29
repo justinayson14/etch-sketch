@@ -14,7 +14,7 @@ body {
 
 header,
 footer {
-    background-color: #0D1B1E;
+    background-color: hsl(191, 40%, 8%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,19 +47,28 @@ footer .text {
     font-size: 15px;
 }
 
-.clear-button {
+.button-container {
+    margin-top: 10px;
+    width: 600px;
+    min-height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.style-button {
     color: #EBF5EE;
-    background-color: #0D1B1E;
-    margin-top: 20px;
+    background-color: rgb(13, 27, 30);
     border: none;
     text-decoration: none;
     text-align: center;
     font-size: 15px;
     padding: 10px 22px;
     border-radius: 10px;
+    min-width: 100px;
 }
 
-.clear-button:hover {
+.style-button:hover {
     background-color: #244851;
 }
 
@@ -85,4 +94,8 @@ footer .text {
     gap: 0px;
     width: fit-content;
     height: fit-content;
+}
+
+#clear-btn {
+    margin-right: auto;
 }
