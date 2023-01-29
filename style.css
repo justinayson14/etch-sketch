@@ -96,6 +96,13 @@ footer .text {
     height: fit-content;
 }
 
+.github-logo {
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    filter: invert(90%);
+}
+
 #clear-btn {
     margin-right: auto;
 }
