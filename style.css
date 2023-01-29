@@ -6,6 +6,7 @@
 
 body {
     background-color: #78A1BB;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +20,7 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 125px;
+    flex: 1;
 }
 
 footer {
@@ -74,6 +76,7 @@ footer .text {
 
 .content {
     min-height: 800px;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
